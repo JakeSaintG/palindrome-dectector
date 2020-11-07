@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Detector</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+    <main>
+        <div class="container">
+            <h1>Palindrome Detector</h1>
+            <h3>Is it a palindrome? Let's Find Out Together</h3>
+            <p><strong>Our "patented" palindrome detecting technology can, in fact, determine if the word that you enter into the box below is the same forward as it is backwards.</strong></p>
+            <form>
+                <label for="palindrome">Here's your chance...</label>
+                <input type="text" name="palindrome" id="palindrome" placeholder="Your Word Here" size=30px maxlength="30" class="box">
+                <button onclick="detect();return false">Detect</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </main>
+<body>
+    <script src="detect.js"></script>
+</body>
+</html>
