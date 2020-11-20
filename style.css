@@ -3,7 +3,7 @@
 } 
 
 body {
-    background-color: rgb(218, 214, 214);
+    background-color: rgb(161, 161, 161);
 }
 
 main {
@@ -69,7 +69,7 @@ input {
     border-style: solid;
     border-width: 6px;
     border-radius: 10px;
-    border-color: grey;
+    border-color: rgb(41, 119, 155);
     margin: 0 20px;
     padding: 17.5px 0;
     text-align: center;
@@ -84,17 +84,18 @@ button {
     border-width: 6px;
     font-weight: bold;
     font-size: 30px;
+    border-color: rgb(41, 119, 155);
 }
 
 @media (min-width: 700px) {
     main {
-        background-color: rgb(16, 104, 145);
+        background-color: rgb(10, 61, 85);
         justify-content: center;
     }
 
     .container {
         width: 650px;
-        background-color: rgb(218, 214, 214);
+        background-color: rgb(161, 161, 161);
         box-shadow: 0px 0px 5px 7px rgba(0,0,0,0.69);
     }
 
@@ -102,16 +103,21 @@ button {
         margin: 20px auto;
     }
 
+    input,
+    button {
+        border-color: grey;
+    }
+
     form {
         padding: 5px;
         box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.69);
-        background-color: ivory;
+        background-color: rgb(41, 119, 155);
         border-radius: 10px;
     }
 
     #result {
         box-shadow: 7px 7px 5px 1px rgba(0,0,0,0.69);
-        background-color: ivory;
+        background-color: rgb(41, 119, 155);
         border-radius: 10px;
     }
 }
